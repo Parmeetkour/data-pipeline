@@ -1,0 +1,19 @@
+{
+	"mysql_data_ingestion_config": {
+		"default_args": {
+			"owner": "Data ",
+			"schedule_interval": "10 20 * * *",
+			"dir_location":"C:\\Users\\hp\\Desktop\\PYTHON\\pipeline system\\"
+
+		},
+		"source_tablename": {
+			"MYSQL": [
+				"student",
+				"college",
+				"cse",
+				"data"
+				
+			]
+		}
+	}
+}
